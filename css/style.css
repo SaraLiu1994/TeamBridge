@@ -1,0 +1,286 @@
+ @charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.useso.com/css?family=Pathway+Gothic+One);
+
+a{
+	color: #ccd500;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+	color: #a9b119;
+}
+.clear {
+    clear: both;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    background: black;
+}
+b{
+	font-weight: 600;
+}
+
+.htmldemo p{font-size: 16px;font-family: "微软雅黑"}
+/* Titulos
+-------------------------------------------------------------------------*/
+h1{
+	width: 100%;
+	height: 50px;
+	color: #000000;
+	font-size: 40px;
+	text-align: center;
+}
+
+p.title{
+	color: #000000;
+    display: table-cell;
+    float: left;
+    font-size: 45px;
+    line-height: 40px;
+    margin: 0 0 50px;
+    text-align: center;
+    width: 100%;
+    font-weight: 300;
+}
+
+.grey {	color:#444;}
+
+/* INICIO
+-------------------------------------------------------------------------*/
+
+
+
+.line{
+	background-color: #DCD293;
+	/*padding: 50px 0px 25px 0px;*/
+	width:100%;
+	border-top: 10px dotted #A48E4E;
+}
+.content{
+	text-align: center; 
+	background: url('../img/machine.png') no-repeat 50% 0px; 
+	background-size: 750px;
+	height: 500px;
+}
+.content h1{
+	width: 100%;
+	height: 50px;
+	font-size: 40px;
+	line-height: 50px;
+}
+
+.slotMachine{
+	width: 40%;
+	border: 2px solid #000;
+	height: 200px;
+	padding: 0px;
+	overflow: hidden;
+	display: inline-block;
+	text-align: center;
+	background-color: #ffffff;
+}
+
+.slotMachine .slot{
+	height:200px;
+	background-position-x: 50%;
+	background-position-y:50%;
+	background-repeat: no-repeat;
+	background-size: auto 200px;
+}
+/*female_pic*/
+.slot0{background-image: url("../img/user_pic/female/0.jpg");}
+.slot1{background-image: url("../img/user_pic/female/1.jpg");}
+.slot2{background-image: url("../img/user_pic/female/2.jpg");}
+.slot3{background-image: url("../img/user_pic/female/3.jpg");}
+.slot4{background-image: url("../img/user_pic/female/4.jpg");}
+.slot5{background-image: url("../img/user_pic/female/5.jpg");}
+.slot6{background-image: url("../img/user_pic/female/6.jpg");}
+.slot7{background-image: url("../img/user_pic/female/7.jpg");}
+.slot8{background-image: url("../img/user_pic/female/8.jpg");}
+.slot9{background-image: url("../img/user_pic/female/9.jpg");}
+.slot10{background-image: url("../img/user_pic/female/10.jpg");}
+.slot11{background-image: url("../img/user_pic/female/11.jpg");}
+.slot12{background-image: url("../img/user_pic/female/12.jpg");}
+.slot13{background-image: url("../img/user_pic/female/13.jpg");}
+.slot14{background-image: url("../img/user_pic/female/14.jpg");}
+.slot15{background-image: url("../img/user_pic/female/15.jpg");}
+.slot16{background-image: url("../img/user_pic/female/16.jpg");}
+.slot17{background-image: url("../img/user_pic/female/17.jpg");}
+.slot18{background-image: url("../img/user_pic/female/18.jpg");}
+.slot19{background-image: url("../img/user_pic/female/19.jpg");}
+.slot20{background-image: url("../img/user_pic/female/20.jpg");}
+.slot21{background-image: url("../img/user_pic/female/21.jpg");}
+.slot22{background-image: url("../img/user_pic/female/22.jpg");}
+.slot23{background-image: url("../img/user_pic/female/23.jpg");}
+.slot24{background-image: url("../img/user_pic/female/24.jpg");}
+.slot25{background-image: url("../img/user_pic/female/25.jpg");}
+.slot26{background-image: url("../img/user_pic/female/26.jpg");}
+.slot27{background-image: url("../img/user_pic/female/27.jpg");}
+.slot28{background-image: url("../img/user_pic/female/28.jpg");}
+.slot29{background-image: url("../img/user_pic/female/29.jpg");}
+.slot30{background-image: url("../img/user_pic/female/30.jpg");}
+.slot31{background-image: url("../img/user_pic/female/31.jpg");}
+.slot32{background-image: url("../img/user_pic/female/32.jpg");}
+.slot33{background-image: url("../img/user_pic/female/33.jpg");}
+.slot34{background-image: url("../img/user_pic/female/34.jpg");}
+.slot35{background-image: url("../img/user_pic/female/35.jpg");}
+.slot36{background-image: url("../img/user_pic/female/36.jpg");}
+.slot37{background-image: url("../img/user_pic/female/37.jpg");}
+.slot38{background-image: url("../img/user_pic/female/38.jpg");}
+.slot39{background-image: url("../img/user_pic/female/39.jpg");}
+.slot40{background-image: url("../img/user_pic/female/40.jpg");}
+.slot41{background-image: url("../img/user_pic/female/41.jpg");}
+.slot42{background-image: url("../img/user_pic/female/42.jpg");}
+.slot43{background-image: url("../img/user_pic/female/43.jpg");}
+.slot44{background-image: url("../img/user_pic/female/44.jpg");}
+
+
+
+/*male_pic*/
+.slot-0{background-image: url("../img/user_pic/male/0.jpg");}
+.slot-1{background-image: url("../img/user_pic/male/1.jpg");}
+.slot-2{background-image: url("../img/user_pic/male/2.jpg");}
+.slot-3{background-image: url("../img/user_pic/male/3.jpg");}
+.slot-4{background-image: url("../img/user_pic/male/4.jpg");}
+.slot-5{background-image: url("../img/user_pic/male/5.jpg");}
+.slot-6{background-image: url("../img/user_pic/male/6.jpg");}
+.slot-7{background-image: url("../img/user_pic/male/7.jpg");}
+.slot-8{background-image: url("../img/user_pic/male/8.jpg");}
+.slot-9{background-image: url("../img/user_pic/male/9.jpg");}
+.slot-10{background-image: url("../img/user_pic/male/10.jpg");}
+.slot-11{background-image: url("../img/user_pic/male/11.jpg");}
+.slot-12{background-image: url("../img/user_pic/male/12.jpg");}
+.slot-13{background-image: url("../img/user_pic/male/13.jpg");}
+.slot-14{background-image: url("../img/user_pic/male/14.jpg");}
+.slot-15{background-image: url("../img/user_pic/male/15.jpg");}
+.slot-16{background-image: url("../img/user_pic/male/16.jpg");}
+.slot-17{background-image: url("../img/user_pic/male/17.jpg");}
+.slot-18{background-image: url("../img/user_pic/male/18.jpg");}
+.slot-19{background-image: url("../img/user_pic/male/19.jpg");}
+.slot-20{background-image: url("../img/user_pic/male/20.jpg");}
+.slot-21{background-image: url("../img/user_pic/male/21.jpg");}
+.slot-22{background-image: url("../img/user_pic/male/22.jpg");}
+.slot-23{background-image: url("../img/user_pic/male/23.jpg");}
+.slot-24{background-image: url("../img/user_pic/male/24.jpg");}
+.slot-25{background-image: url("../img/user_pic/male/25.jpg");}
+.slot-26{background-image: url("../img/user_pic/male/26.jpg");}
+.slot-27{background-image: url("../img/user_pic/male/27.jpg");}
+.slot-28{background-image: url("../img/user_pic/male/28.jpg");}
+.slot-29{background-image: url("../img/user_pic/male/29.jpg");}
+.slot-30{background-image: url("../img/user_pic/male/30.jpg");}
+.slot-31{background-image: url("../img/user_pic/male/31.jpg");}
+.slot-32{background-image: url("../img/user_pic/male/32.jpg");}
+.slot-33{background-image: url("../img/user_pic/male/33.jpg");}
+.slot-34{background-image: url("../img/user_pic/male/34.jpg");}
+.slot-35{background-image: url("../img/user_pic/male/35.jpg");}
+.slot-36{background-image: url("../img/user_pic/male/36.jpg");}
+.slot-37{background-image: url("../img/user_pic/male/37.jpg");}
+
+
+
+.slotMachineButton{
+	width:50px;
+	height: 50spx;
+	overflow: hidden;
+	display: inline-block;
+	text-align: center;
+	margin-right: 90px;
+}
+.slotMachineButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #fb9e25) );
+	background:-moz-linear-gradient( center top, #ffc477 5%, #fb9e25 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25');
+	background-color:#ffc477;
+	border-radius: 75px;
+	text-indent:0px;
+	border:2px solid #eeb44f;
+	display:inline-block;
+	color:#ffffff;
+	font-size:40px;
+	font-weight:bold;
+	font-style:normal;
+	height:100px;
+	line-height:90px;
+	margin-top:10px;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #cc9f52;
+	cursor:pointer;
+}
+.slotMachineButton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477) );
+	background:-moz-linear-gradient( center top, #fb9e25 5%, #ffc477 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477');
+	background-color:#fb9e25;
+}.slotMachineButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.mask{
+	/*background-color: rgba(255,255,255,0.5);*/
+	display: none;
+	z-index: 100;
+	background-color: #DCD293;
+	width:100%;
+	border-top: 10px dotted #A48E4E;
+}
+.result{
+	text-align: center;
+}
+.list{
+	margin:0 auto;
+}
+td{
+	width: 200px;
+}
+.list .title{
+	font-size: 20px;
+}
+.copyright{
+	width: 100%;
+	text-align: center;
+	font-size: 15px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	color: #696969;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
